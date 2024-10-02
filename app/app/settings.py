@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'core',
     'user',
+    'clinic',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL ='core.User'
 MEDIA_URL = '/media/'
 MEDIA_ROOTED = os.path.join(BASE_DIR,'media')
+APPEND_SLASH = False
